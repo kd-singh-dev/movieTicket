@@ -1,0 +1,50 @@
+.add-bus-parent-div {
+  padding: 40px;
+  background-color: white;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-city-col,
+.remove-city-col {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.add-city-col div,
+.remove-city-col div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: 0.1s ease;
+}
+
+.add-city-col div:hover,
+.remove-city-col div:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.new-bus-btn,
+.bus-data-col button {
+  border: 1px solid transparent;
+  padding: 4px 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.new-bus-btn:hover,
+.bus-data-col button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}

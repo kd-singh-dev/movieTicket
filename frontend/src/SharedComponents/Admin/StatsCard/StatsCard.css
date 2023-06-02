@@ -1,0 +1,31 @@
+.admin-home-stats-card {
+  padding: 24px;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 24px;
+  border: none;
+  min-height: 380px;
+  box-shadow: 1px 1px 18px 1px rgba(0, 0, 0, 0.1);
+}
+
+.admin-home-stats-card img {
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 24px;
+}
+
+.admin-home-stats-card h4 {
+  font-weight: bolder;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.admin-home-stats-card p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+@media screen and (max-width: 1142px) {
+  .admin-home-stats-card {
+    min-height: 400px;
+  }
+}

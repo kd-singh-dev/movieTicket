@@ -1,0 +1,22 @@
+.admin-coupons-parent {
+  padding: 40px;
+  background-color: white;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cancel-btn {
+  background-color: rgb(234, 72, 72);
+}
+
+.cancel-btn:hover {
+  background-color: red !important;
+}
+
+.data-grid-parent {
+  height: 600px;
+  margin-top: 24px;
+}

@@ -1,0 +1,56 @@
+.dashboard-parent-div {
+  margin-top: 80px;
+  padding: 24px;
+  background-color: rgb(240, 240, 240);
+}
+
+.user-dashboard {
+  background-color: white;
+  padding: 24px;
+  height: 77vh;
+  overflow-y: scroll;
+}
+
+.user-booking-card {
+  padding: 8px;
+  border-radius: 0;
+  margin-bottom: 12px;
+}
+
+.user-booking-card p {
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.user-booking-card h5 {
+  font-size: 16px;
+}
+
+.user-booking-card button {
+  color: red;
+  background-color: transparent;
+  border: 1px solid red;
+  margin-top: 8px;
+  transition: 0.1s ease;
+  width: 100%;
+}
+
+.user-booking-card button:hover {
+  color: white;
+  background-color: red;
+}
+
+.invoice-btn {
+  color: green !important;
+  border-color: green !important;
+}
+
+.invoice-btn:hover {
+  color: white !important;
+  background-color: green !important;
+}
+
+.cancelled-booking {
+  color: red;
+}

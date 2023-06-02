@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    container_name: movie_backend
+    ports:
+      - '6000:6000'
+    volumes:
+      - ./backend:/app
+      - ./app/node_modules
+  frontend:
+    build: ./frontend
+    container_name: movie_frontend
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+

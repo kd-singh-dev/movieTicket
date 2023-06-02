@@ -1,0 +1,179 @@
+.buses-parent-div {
+  margin-top: 80px;
+  height: 82vh;
+  overflow-y: scroll;
+}
+
+.query-info-div {
+  background-color: rgb(240, 240, 240);
+  padding: 20px 60px;
+}
+
+.query-info-div p {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.query-icon {
+  font-size: 24px;
+}
+
+.bus-content-row,
+.bus-content-col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bus-content-row {
+  margin: 20px !important;
+}
+
+.bus-content-col {
+  padding: 20px !important;
+}
+
+.bus-content-col:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bus-content-col input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid rgba(44, 44, 44, 0.25);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.bus-content-col button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid transparent;
+  background-color: #ff7d21;
+  color: white;
+  font-weight: 500;
+}
+
+.bus-content-col button:hover {
+  background-color: #ff700d;
+}
+
+.bus-content-col h4 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.bus-info-card {
+  border-radius: 0;
+  margin-bottom: 12px;
+}
+
+.basic-info-div {
+  padding: 16px;
+}
+
+.bus-info-col h5 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.bus-info-col p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.additional-info-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.additional-info-div p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+}
+
+.bus-info-card p span {
+  font-weight: bold;
+}
+
+.additional-info-div button {
+  width: max-content;
+  padding: 2px 6px !important;
+}
+
+.seats-layout-div {
+  /* display: flex; */
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+}
+
+.bus-layout {
+  width: 400px;
+  padding: 30px;
+  border: 1px solid;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+.seats-icon {
+  font-size: 32px;
+  transition: 0.1s ease;
+}
+
+.seats-icon:hover {
+  cursor: pointer;
+  color: rgb(70, 190, 70);
+}
+
+.seats-icon.selected {
+  color: green;
+}
+
+.seats-icon.disabled {
+  color: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  cursor: none;
+}
+
+.booking-backdrop {
+  background-color: #000;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1431px) {
+  .query-info-div p {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .query-info-div p {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .query-info-div p {
+    width: 50%;
+  }
+
+  .bus-content-col:first-child {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .query-info-div p {
+    width: 100%;
+  }
+
+  .bus-layout {
+    width: 320px;
+  }
+
+  .seats-icon {
+    font-size: 24px;
+  }
+}

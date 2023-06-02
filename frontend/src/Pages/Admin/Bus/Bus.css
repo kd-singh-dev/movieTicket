@@ -1,0 +1,79 @@
+.admin-bus-parent {
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-new-bus {
+  width: 100%;
+}
+
+.new-bus-btn,
+.bus-data-col button {
+  border: 1px solid transparent;
+  padding: 4px 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.new-bus-btn:hover,
+.bus-data-col button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.bus-list-div {
+  margin-top: 24px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.bus-list-header-row,
+.bus-list-header-col,
+.bus-data-row,
+.bus-data-col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bus-list-header-row {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.bus-list-header-col {
+  border-right: 2px solid rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+}
+
+.bus-list-header-col:last-child {
+  border-right: none !important;
+}
+
+.bus-data-col,
+.bus-list-header-col {
+  padding: 8px !important;
+}
+
+.bus-data-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bus-data-row:last-child {
+  border-bottom: none;
+}
+
+.bus-data-col:last-child {
+  text-align: center;
+}
+
+.buses-div {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.data-grid-parent {
+  height: 600px;
+  margin-top: 24px;
+}

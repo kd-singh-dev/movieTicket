@@ -1,0 +1,67 @@
+.signup-row {
+  height: 100vh;
+}
+
+.signup-image-col {
+  background: linear-gradient(
+      45deg,
+      rgba(44, 44, 44, 0.805),
+      rgba(44, 44, 44, 0.45)
+    ),
+    url("../../../Assets/bus.jpg");
+  background-size: cover;
+  padding: 32px;
+}
+
+.signup-image-col h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 100px;
+  position: relative;
+}
+
+.signup-form-col {
+  /* background-color: rgb(240, 236, 236); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.form-div {
+  padding: 16px;
+}
+
+.signup-form-col h4 {
+  text-align: justify;
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.signup-form-group {
+  margin-bottom: 12px;
+}
+
+.signup-form-button {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1270px) {
+  .signup-image-col h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .signup-image-col h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .signup-image-col {
+    display: none;
+  }
+}

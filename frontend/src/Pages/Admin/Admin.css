@@ -1,0 +1,20 @@
+.admin-dashboard-parent {
+  display: flex;
+  transition: 0.2s ease;
+}
+
+.admin-sidebar-div {
+  width: max-content;
+  padding: 12px;
+  transition: 0.2s ease;
+}
+
+.admin-dashboard-main {
+  width: 100%;
+  display: flex;
+  padding: 0 40px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #283046;
+  transition: 0.2s ease;
+}

@@ -1,0 +1,25 @@
+.submit-btn {
+  width: 100%;
+  padding: 8px;
+  margin: 12px 0;
+  background-color: #ff7000;
+  border: 1px solid #ff7000;
+  /* background-color: rgba(0, 0, 0, 0.45);
+  border: 1px solid transparent; */
+  border-radius: 6px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.1s ease-in-out;
+}
+
+.submit-btn:hover {
+  color: #ff7000;
+  /* border: 1px solid rgba(0, 0, 0, 0.45); */
+  background-color: white;
+}
+
+.submit-btn.selected {
+  color: #ff7000;
+  background-color: white;
+}
